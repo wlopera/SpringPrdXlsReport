@@ -24,7 +24,7 @@ public class MovieController {
 	}
 
 	// http://localhost:8080/SpringReport/movie
-	@RequestMapping("/")
+	@RequestMapping("/movie")
 	public ModelAndView verInicio() {
 		return new ModelAndView("movie");
 	}

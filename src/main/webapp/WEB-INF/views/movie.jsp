@@ -20,7 +20,7 @@
             <c:forEach var="movie" items="${movieList}">
                 <tr>
                     <td>${movie.name}</td>
-                    <td>${movie.gener}</td>
+                    <td>${movie.gender}</td>
                     <td>${movie.year}</td>
                     <td>${movie.clase}</td>
                 </tr>
